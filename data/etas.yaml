@@ -1,0 +1,26 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: C:/Users/User/Desktop/yolov7/ETAS/dataSet_path/train.txt
+val: C:/Users/User/Desktop/yolov7/ETAS/dataSet_path/val.txt
+test:
+
+# number of classes
+nc: 15
+
+# class names
+names:
+  - heineken4x
+  - heineken
+  - taiwan4x
+  - taiwan
+  - bar4x
+  - bar
+  - edelweiss_peach
+  - edelweiss_peach
+  - tiger
+  - busch
+  - strong
+  - green_label
+  - green_label
+  - kirin_orange
+  - budweiser
+# other configurations...

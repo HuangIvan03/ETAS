@@ -1,10 +1,9 @@
-# -*- coding: utf-8 -*-
 import xml.etree.ElementTree as ET
 import os
 from os import getcwd
 
 sets = ['train', 'val', 'test']
-classes = ["heineken4x","heineken","taiwan4x","taiwan","bar4x","bar","edelweiss peach","edelweiss peach","tiger","busch","strong","green label","green label","kirin orange","budweiser"]  # 改成自己的类别
+classes = ["green tea", "black tea", "milk tea", "bubble green tea", "egg soya milk", "soya milk", "nacho cheese", "golden cheese", "turtle", "peacock", "shrimp", "vegetable"]  # 改成自己的类别
 abs_path = os.getcwd()
 print(abs_path)
 
@@ -24,13 +23,27 @@ def convert(size, box):
 
 
 def convert_annotation(image_id):
-    in_file = open('C:/Users/User/Desktop/yolov7/ETAS/Annotations/%s.xml' % (image_id), encoding='UTF-8')
+    # 檢查是否為有效的圖片檔案名稱
+    if image_id == 'classes':
+        print("Invalid image_id:", image_id)
+        return
+    
+    try:
+        in_file = open('C:/Users/User/Desktop/yolov7/ETAS/Annotations/%s.xml' % (image_id), encoding='UTF-8')
+    except FileNotFoundError:
+        print("Error: File not found for image_id:", image_id)
+        return
+
+    print("Processing image_id:", image_id)
     out_file = open('C:/Users/User/Desktop/yolov7/ETAS/labels/%s.txt' % (image_id), 'w')
     tree = ET.parse(in_file)
     root = tree.getroot()
     size = root.find('size')
     w = int(size.find('width').text)
     h = int(size.find('height').text)
+    
+    # ... (其余的代码保持不变)
+
     for obj in root.iter('object'):
         difficult = obj.find('difficult').text
         # difficult = obj.find('Difficult').text

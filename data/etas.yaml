@@ -4,23 +4,20 @@ val: C:/Users/User/Desktop/yolov7/ETAS/dataSet_path/val.txt
 test:
 
 # number of classes
-nc: 15
+nc: 12
 
 # class names
 names:
-  - heineken4x
-  - heineken
-  - taiwan4x
-  - taiwan
-  - bar4x
-  - bar
-  - edelweiss_peach
-  - edelweiss_peach
-  - tiger
-  - busch
-  - strong
-  - green_label
-  - green_label
-  - kirin_orange
-  - budweiser
+  - green tea
+  - black tea
+  - milk tea
+  - bubble green tea
+  - egg soya milk
+  - soya milk
+  - nacho cheese
+  - golden cheese
+  - turtle
+  - peacock
+  - shrimp
+  - vegetable
 # other configurations...

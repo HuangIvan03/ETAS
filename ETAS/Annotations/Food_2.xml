@@ -1,0 +1,49 @@
+<annotation>
+	<folder>my-project-name</folder>
+	<filename>Food_2.jpg</filename>
+	<path>/my-project-name/Food_2.jpg</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>5712</width>
+		<height>4284</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>nacho cheese</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>99</xmin>
+			<ymin>1072</ymin>
+			<xmax>1905</xmax>
+			<ymax>3492</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>turtle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3622</xmin>
+			<ymin>1167</ymin>
+			<xmax>5207</xmax>
+			<ymax>3481</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>golden cheese</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1926</xmin>
+			<ymin>1252</ymin>
+			<xmax>3574</xmax>
+			<ymax>3439</ymax>
+		</bndbox>
+	</object>
+</annotation>

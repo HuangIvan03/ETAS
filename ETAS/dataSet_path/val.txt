@@ -1,1 +1,6 @@
-C:/Users/User/Desktop/yolov7/ETAS/images/classes.jpg
+C:/Users/User/Desktop/yolov7/ETAS/images/Drink_1.jpg
+C:/Users/User/Desktop/yolov7/ETAS/images/Drink_5.jpg
+C:/Users/User/Desktop/yolov7/ETAS/images/Drink_6.jpg
+C:/Users/User/Desktop/yolov7/ETAS/images/Food_12.jpg
+C:/Users/User/Desktop/yolov7/ETAS/images/Food_20.jpg
+C:/Users/User/Desktop/yolov7/ETAS/images/Food_5.jpg

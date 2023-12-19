@@ -1,0 +1,85 @@
+<annotation>
+	<folder>my-project-name</folder>
+	<filename>Drink_5.jpg</filename>
+	<path>/my-project-name/Drink_5.jpg</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>5712</width>
+		<height>4284</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>green tea</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>643</xmin>
+			<ymin>1870</ymin>
+			<xmax>1403</xmax>
+			<ymax>3354</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>black tea</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1419</xmin>
+			<ymin>1917</ymin>
+			<xmax>2169</xmax>
+			<ymax>3391</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>milk tea</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2201</xmin>
+			<ymin>1933</ymin>
+			<xmax>2956</xmax>
+			<ymax>3407</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bubble green tea</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2972</xmin>
+			<ymin>1775</ymin>
+			<xmax>3754</xmax>
+			<ymax>3481</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>egg soya milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3770</xmin>
+			<ymin>2166</ymin>
+			<xmax>4536</xmax>
+			<ymax>3534</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>soya milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4567</xmin>
+			<ymin>2187</ymin>
+			<xmax>5397</xmax>
+			<ymax>3566</ymax>
+		</bndbox>
+	</object>
+</annotation>
